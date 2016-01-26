@@ -1,0 +1,10 @@
+<br><br>
+
+<div class="container centered">
+  <img src="assets/images/watson.gif" alt="I'm Thomas!"><br><br>
+  <button class="btn btn-lg btn-primary" ng-click="begin()" ng-if="!started">Let's go!</button>
+  <button class="btn btn-lg btn-primary" ng-click="wandTried()" ng-if="tryWand">Continue</button>
+  <div ng-show="needName">
+    <input type="text" ng-model="name"></input><button class="btn btn-lg btn-primary" ng-click="nameAdded()">Done</button>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+applications:
+- services:
+  - Text to Speech-xr
+  name: re-nodejs-thomas
+  command: node server/app.js
+  path: .
+  memory: 128M
